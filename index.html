@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bubble" style="left: 10%; animation-delay: 0s;"></div>
+  <div class="bubble" style="left: 30%; animation-delay: 2s;"></div>
+  <div class="bubble" style="left: 50%; animation-delay: 4s;"></div>
+  <div class="bubble" style="left: 70%; animation-delay: 1s;"></div>
+  <div class="bubble" style="left: 90%; animation-delay: 3s;"></div>
+  <div id="enterText">click to enter</div>
+
+  <div id="profile">
+    <h1 class="fade-in">Hayden</h1>
+    <p class="fade-in subtitle">Softw	are Developer | Game Developer</p>
+
+    <div class="section fade-in">
+      <h2>About Me</h2>
+      <p>I’m Hayden, a passionate game developer and software dev, I also self study quantum mechanics! <br> I currently am working on making my own roblox script, DM me on discord to be a tester!</p>
+    </div>
+
+    <div class="section fade-in">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">HTML</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Luau</span>
+        <span class="tag">C++</span>
+        <span class="tag">C#</span>
+      </div>
+    </div>
+
+    <div class="section fade-in">
+      <h2>Links</h2>
+      <ul class="links">
+        <li><a href="#"></a></li>
+        <li><a href="#">github - will be linked when roblox script is finished!</a></li>
+        <li><a href="#">Fuzeezy1@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div class="bottom-button-container">
+      <div class="discord-info">Discord: @Xeno_L</div>
+      <button class="button" onclick="showImagine()">Show Girlfriend</button>
+    </div>
+  </div>
+
+  <div id="loveModal" class="modal">
+    <div class="modal-content">
+      <p>You really thought i had one?</p>
+      <button class="close-button" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
